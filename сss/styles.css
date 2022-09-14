@@ -1,0 +1,202 @@
+body{
+    background: #F5F5F5;
+    color: #212121;
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+    font-weight: 400;
+}
+
+/* Site nav */
+
+ul{
+    list-style: none;
+}
+
+.logo{
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+}
+
+.slogan{
+color: #2196F3;
+}
+
+.slogan-logo{
+color: #000000;
+}
+
+.slogan-text{
+    color: #FFFFFF;
+}
+
+.list-item:hover, .list-item:focus{
+  color: #2196F3;  
+}
+
+.list-item{
+    font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+    color: #212121;
+    text-decoration: none;
+}
+
+.list-item-current{
+    font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+    color: #2196F3;
+    text-decoration: none;
+}
+
+.nav-items{
+    font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+    color: #757575;
+    text-decoration: none;
+}
+
+.nav-items:hover, .nav-items:focus{
+    color: #2196F3;  
+  }
+
+  /* Section 1 */
+
+  .hero{
+    background: #2F303A;
+  }
+
+  .hero-title{
+    font-weight: 900;
+font-size: 44px;
+line-height: 4.3;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+    color: #FFFFFF;
+  }
+
+.hero-button{
+    font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+    font-family: inherit;
+    background: #2196F3;
+    cursor: pointer;
+}
+
+/* Section2 */
+
+.list-option{
+    font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+
+.list-caption{
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+    color: #757575;
+}
+
+
+/* Section3 */
+
+.title-about{
+    font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+}
+
+
+/* Section4 */
+
+.title-team{
+    font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+}
+
+.text-name{
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+}
+
+.text{
+font-size: 16px;
+line-height: 1.19;
+    color: #757575;
+}
+
+/* footer */
+
+.section-footer{
+    background: #2F303A;
+}
+
+
+.address-text{
+    font-size: 14px;
+line-height: 1.7;
+    color: #FFFFFF;
+    }
+    
+    .address-mail{
+font-size: 14px;
+line-height: 24px;
+        color: rgba(255, 255, 255, 0.6);
+        text-decoration: none;
+    }
+
+ 
+    
+    /* PORTFOLIO PAGES */
+
+    /* Список робіт */
+
+    .button{
+        font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+        background: #F5F4FA;
+        font-family: inherit;
+        cursor: pointer;
+    }
+
+    .button:hover, button:focus{
+        background-color: #2196F3;
+        color: #FFFFFF;
+    }
+
+.list-works-item{
+    font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+}
+
+    .list-works-text{
+font-size: 16px;
+line-height: 1.88;
+        color: #757575;
+    }
