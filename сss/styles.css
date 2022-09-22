@@ -87,7 +87,7 @@ letter-spacing: 0.02em;
   .hero-title{
     font-weight: 900;
 font-size: 44px;
-line-height: 4.3;
+line-height: 1.37;
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
@@ -166,6 +166,10 @@ line-height: 1.19;
     background: var(--background-color);
 }
 
+.address{
+    font-style: normal;
+}
+
 
 .address-text{
     font-size: 14px;
@@ -180,6 +184,10 @@ line-height: 24px;
         color: var(--addres-mail-color);
         text-decoration: none;
     }
+
+    .address-mail:hover, .address-mail:focus{
+        color: var(--accent-color);  
+      }
 
  
     
