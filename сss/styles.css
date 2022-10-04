@@ -479,7 +479,7 @@ line-height: 1.19;
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background-color: #ffffff;
+  background-color: var(--white-color);
   transition-property: background-color, fill;
 transition-duration: 250ms; 
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -490,37 +490,27 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 .social-list-link:focus {
   background-color: var(--accent-color);
   fill: var(--white-color);
-  /* transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+  
 }
 
 .social-list-icon {
+ display: flex;
+
   fill: var(--primaru-link-color);
   height: 20px;
-  transition-property: background-color, fill;
+  transition-property: fill;
 transition-duration: 250ms; 
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-list-link:hover .social-list-icon,
 .social-list-link:focus .social-list-icon {
-  background-color: var(--accent-color);
+  /* background-color: var(--accent-color); */
   fill: var(--white-color);
   
 }
 
-/* .social-list-link:hover, .social-list-link:focus{
-  background-color: var(--accent-color);
-  
-} */
 
-/* .social-list-icon{
-  fill: green;
-} */
-
-/* .social-list-link:hover .social-list-icon,
-.social-list-link:focus .social-list-icon {
-  fill: var(--accent-color);
-} */
 
 
 
@@ -714,10 +704,6 @@ transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.link-change-color{
-fill: var(--white-color);
-
-}
   
 .social-list-item:hover,
 .social-list-item:focus {
@@ -726,17 +712,18 @@ fill: var(--white-color);
   
 }
 
-.social-list-icon {
-  fill: var(--primaru-link-color);
+.link-change-color {
+  fill: var(--white-color);
+  
   height: 20px;
   transition-property: background-color, fill;
 transition-duration: 250ms; 
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-list-item:hover .social-list-icon,
-.social-list-item:focus .social-list-icon {
-  background-color: var(--accent-color);
+.social-list-item:hover .link-change-color,
+.social-list-item:focus .link-change-color {
+  /* background-color: var(--accent-color); */
   fill: var(--white-color);
   /* transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
@@ -756,7 +743,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
         font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
-        background: var(--background-page-color);
+        
         font-family: inherit;
         cursor: pointer;
         border-radius: 4px;
@@ -778,6 +765,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     }
 
 .filter-button{
+  background: var(--background-page-color);
   display: block;
   transition-property: box-shadow, border-radius, background-color, color;
 transition-duration: 250ms; 
@@ -885,6 +873,7 @@ line-height: 1.88;
 
     .backdrop{
       position: fixed;
+      /* opacity: 1; */
       top: 0;
       left: 0;
       width: 100%;
@@ -907,11 +896,14 @@ line-height: 1.88;
       position: absolute;
       top: 50%;
       left: 50%;
-      transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%) scale(1);
       width: 528px;
       height: 580px; 
       background-color: var(--white-color);
-
+      border-radius: 4px;
+      transition-property: transform;
+      transition-duration: 2500ms; 
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     }
 
     .modal-close-button{
@@ -927,7 +919,14 @@ border: 1px solid rgba(0, 0, 0, 0.1);
    width: 30px;
    height: 30px;
    padding: 0;
-   
+   /* transition-property: transform;
+      transition-duration: 2500ms; 
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
+}
+
+.backdrop.is-hidden .modal {
+  transform: translate(-50%, -50%) scale(0);
+  
 }
 
 .modal-close-button-icon{
