@@ -1138,15 +1138,25 @@ color: #2196F3;
 .modal-form-check-wrapper {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
 }
 
 .modal-form-own-check {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: 2px solid var(--primary-text-color);
  border-radius: 2px;
   cursor: pointer;
   padding: 2px;
   margin-right: 10px;
+}
+
+.form-text-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .modal-form-check:checked + .modal-form-own-check {
@@ -1162,6 +1172,8 @@ color: #2196F3;
 .modal-form-own-check-icon {
   display: none;
   fill: #ffffff;
+  width: 11px;
+  height: 8px;
 }
 
 .modal-form-check:checked + .modal-form-own-check .modal-form-own-check-icon {
