@@ -5,7 +5,7 @@
   border-bottom: 1px solid #ECECEC;;
 }
 
-.page-header-container {
+.page-header__container {
     display: flex;
     align-items: center;
   }
@@ -17,7 +17,7 @@
   
 }
 
-.logo{
+.menu__logo{
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -64,7 +64,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 
 
-.menu-item-current{
+.menu-item__current{
   display: block;
   justify-content: center;
   align-items: center;
@@ -80,7 +80,7 @@ letter-spacing: 0.02em;
 
 
 
-.menu-item-current::after{
+.menu-item__current::after{
   position: absolute;
   display: block;
   content: '';
@@ -92,20 +92,20 @@ letter-spacing: 0.02em;
   margin-top: 30px;
 }
 
-.nav-link{
+.nav-list{
     display: flex;
   column-gap: 50px;
   margin-left: auto;
   justify-content: center;
 }
 
-.nav-list{
+.nav-list__link{
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.nav-items{
+.nav-list__items{
   
     font-weight: 500;
 font-size: 14px;
@@ -145,13 +145,13 @@ align-items: center;
     
   }
   
-  .nav-items:hover, .nav-items:focus{
+  .nav-list__items:hover, .nav-list__items:focus{
       color: var(--accent-color); 
       
     }
   
-    .nav-items:hover .contact-list,
-  .nav-items:focus .contact-list {
+    .nav-list__items:hover .contact-list,
+  .nav-list__items:focus .contact-list {
     background-color: var(--white-color);
     fill: var(--accent-color)
   

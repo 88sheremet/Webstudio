@@ -89,7 +89,7 @@ ul {
   border-bottom: 1px solid #ECECEC;
 }
 
-.page-header-container {
+.page-header__container {
   display: flex;
   align-items: center;
 }
@@ -100,7 +100,7 @@ ul {
   column-gap: 40px;
 }
 
-.logo {
+.menu__logo {
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -143,7 +143,7 @@ ul {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.menu-item-current {
+.menu-item__current {
   display: block;
   justify-content: center;
   align-items: center;
@@ -157,7 +157,7 @@ ul {
   margin-bottom: auto;
 }
 
-.menu-item-current::after {
+.menu-item__current::after {
   position: absolute;
   display: block;
   content: "";
@@ -169,20 +169,20 @@ ul {
   margin-top: 30px;
 }
 
-.nav-link {
+.nav-list {
   display: flex;
   column-gap: 50px;
   margin-left: auto;
   justify-content: center;
 }
 
-.nav-list {
+.nav-list__link {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.nav-items {
+.nav-list__items {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -220,12 +220,12 @@ ul {
   fill: var(--accent-color);
 }
 
-.nav-items:hover, .nav-items:focus {
+.nav-list__items:hover, .nav-list__items:focus {
   color: var(--accent-color);
 }
 
-.nav-items:hover .contact-list,
-.nav-items:focus .contact-list {
+.nav-list__items:hover .contact-list,
+.nav-list__items:focus .contact-list {
   background-color: var(--white-color);
   fill: var(--accent-color);
 }
@@ -238,7 +238,7 @@ ul {
   background-size: 1600px auto;
 }
 
-.hero-title {
+.hero__title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.37;
@@ -250,7 +250,7 @@ ul {
   margin-bottom: 30px;
 }
 
-.hero-button {
+.hero__button {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -271,7 +271,7 @@ ul {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.hero-button:active {
+.hero__button:active {
   background-color: #188CE8;
 }
 
@@ -284,11 +284,11 @@ ul {
   column-gap: 30px;
 }
 
-.list-box {
+.list__item {
   width: 270px;
 }
 
-.list-box-item {
+.list__item_box {
   display: flex;
   justify-content: center;
   width: 270px;
@@ -304,7 +304,7 @@ ul {
   height: 70px;
 }
 
-.list-option {
+.list__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -313,7 +313,7 @@ ul {
   margin-bottom: 10px;
 }
 
-.list-caption {
+.list__text {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;

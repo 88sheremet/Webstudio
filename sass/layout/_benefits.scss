@@ -8,11 +8,11 @@
    column-gap: 30px;
 }
 
-.list-box{
+.list__item{
  width: 270px;
 }
 
-.list-box-item{
+.list__item_box{
 display: flex;
 justify-content: center;
  width: 270px;
@@ -29,7 +29,7 @@ margin-bottom: 30px;
   height: 70px;
   }
   
-  .list-option{
+  .list__title{
       font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -39,7 +39,7 @@ margin-bottom: 30px;
   }
   
   
-  .list-caption{
+  .list__text{
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
