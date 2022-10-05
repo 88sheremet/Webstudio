@@ -356,7 +356,10 @@
         </address>
     </div>
 
+
+    <!-- <div class="footer-item"> -->
         <div class="footer-community">
+            <div class="community-tem">
             <h3 class="community-title"><span class="community-logo">приєднуйтесь</span></h3>
             <ul class="footer-list">
                 <li>
@@ -389,6 +392,31 @@
                 </li>
             </ul>
         </div>
+
+
+<div class="footer-subscribe">
+    <h3>
+        <span class="subscribe-title">Підпишіться на розсилку</span>  
+    </h3>
+    <div class="subscribe-area">
+    <label class="modal-form-subscribe">
+        <!-- <span class="modal-form-subscribe-desc">Пошта</span> -->
+        <!-- <span class="modal-form-input-wrapper"> -->
+        <input name="user_email" type="text" class="modal-form-input-subscribe" required placeholder="E-mail">
+    </label>
+        <!-- </span> -->
+        <button class="modal-form-subscribe-btn">    
+     <span class="button-text">Підписатися</span> 
+<svg class="subscribe-image-btn" width="24" height="24">
+    <use href="./img/sprite.svg#icon-icon-send"></use>
+</svg>
+        </button>
+    
+</div>
+</div>
+</div>
+
+        </div>
     </div>
     </footer>
 
@@ -399,6 +427,60 @@
             <use href="./img/sprite.svg#icon-close"></use>
         </svg>
     </button>
+
+<p class="modal-caption">Залиште свої дані, ми вам передзвонимо</p>
+<form class="modal-form">
+   <label class="modal-form-field">
+    <span class="modal-form-field-desc">Імʼя</span>
+    <span class="modal-form-input-wrapper">
+    <input name="user_name" type="text" class="modal-form-input" required pattern="[a-zA-Zа-яА-ЯіІїЇ]+">
+   <svg class="modal-image" width="13" height="13">
+    <use href="./img/sprite.svg#icon-Vector-3"></use>
+   </svg>
+</span>
+</label> 
+
+   <label class="modal-form-field">
+    <span class="modal-form-field-desc">Телефон</span>
+    <span class="modal-form-input-wrapper">
+    <input name="user_phone" type="tel" class="modal-form-input" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}">
+    <svg class="modal-image" width="13" height="13">
+        <use href="./img/sprite.svg#icon-Vector-4"></use>
+       </svg>
+    </span>
+</label>
+
+   <label class="modal-form-field">
+    <span class="modal-form-field-desc">Пошта</span>
+    <span class="modal-form-input-wrapper">
+    <input name="user_email" type="text" class="modal-form-input" required>
+    <svg class="modal-image" width="15" height="12">
+        <use href="./img/sprite.svg#icon-Vector-5"></use>
+       </svg>
+    </span>
+</label>
+
+   <label class="modal-form-field">
+    <span class="modal-form-field-desc">Коментар</span>
+    <textarea name="user_messagee" class="modal-form-message" placeholder="Введіть текст"></textarea>
+</label>
+   
+    
+   <label class="modal-form-check-wrapper">
+    <input name="user_policy" type="checkbox" class="modal-form-check visually-hidden">
+    
+    <svg class="modal-form-own-check" width="16" height="15">
+        <use
+          class="modal-form-own-check-icon"
+          href="./img/sprite.svg#icon-checkmark"
+        ></use>
+      </svg> 
+       <span class="modal-form-check-text">Погоджуюся з розсилкою та приймаю&nbsp;</span>  <a href="" class="link modal-form-check-link"><span class=""></span> Умови договору</a>
+    <button type="submit" class="modal-form-btn">Відправити</button>
+   </label>
+
+</form>
+
 </div>
 </div>
 
