@@ -70,19 +70,40 @@ ul {
   overflow: hidden;
 }
 
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
+@media screen and (min-width: 480px) {
+  .section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
 }
-
+@media screen and (min-width: 1200px) {
+  .section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
 .container {
-  width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
 }
 
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 738px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 1200px;
+  }
+}
 .page-header {
   padding-top: 24px;
   padding-bottom: 25px;
@@ -282,7 +303,7 @@ ul {
   width: 270px;
 }
 
-.list__item_box {
+.list__item-box {
   display: flex;
   justify-content: center;
   width: 270px;
@@ -292,13 +313,13 @@ ul {
   margin-bottom: 30px;
 }
 
-.list-box-antena {
+.list-box-svg {
   margin-top: 25px;
   width: 70px;
   height: 70px;
 }
 
-.list__title {
+.list__item-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -307,7 +328,7 @@ ul {
   margin-bottom: 10px;
 }
 
-.list__text {
+.list__item-text {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
