@@ -44,10 +44,7 @@ color: var(--slogan-logo-color);
   
 }
 
-.menu-item:hover, .list-item:focus{
-  color: var(--accent-color);
-  
-}
+
 
 .menu-item{
   position: relative;
@@ -60,6 +57,11 @@ letter-spacing: 0.02em;
     transition-property: color;
 transition-duration: 250ms; 
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+&:hover, .list-item:focus{
+  color: var(--accent-color);
+  
+}
 }
 
 
@@ -76,21 +78,23 @@ letter-spacing: 0.02em;
     text-decoration: none;
     margin-top: auto;
     margin-bottom: auto;
+
+    &::after{
+      position: absolute;
+      display: block;
+      content: '';
+      background-color: #2196F3;
+      height: 4px;
+      /* top: 0; */
+      left: 0;
+      width: 100%;
+      margin-top: 30px;
+    }
+    
 }
 
 
 
-.menu-item__current::after{
-  position: absolute;
-  display: block;
-  content: '';
-  background-color: #2196F3;
-  height: 4px;
-  /* top: 0; */
-  left: 0;
-  width: 100%;
-  margin-top: 30px;
-}
 
 .nav{
     display: flex;
@@ -98,7 +102,7 @@ letter-spacing: 0.02em;
   margin-left: auto;
   justify-content: center;
 
-  :hover, :focus{
+  &:hover, &:focus{
     fill: var(--accent-color); 
     
   }
@@ -149,7 +153,7 @@ transition-property: fill;
 transition-duration: 250ms; 
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-:hover, :focus{
+&:hover, &:focus{
   fill: var(--accent-color);  
   }
 
