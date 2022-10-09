@@ -27,6 +27,12 @@
                 <li class="menu-list__item"><a href="" class="menu-item">Контакти</a></li>
                 </ul>
             </nav>
+
+            <button type="button" class="mobile-menu-btn" data-menu-open>
+        <svg class="mobile-menu-btn__icon" width="40" height="40">
+    <use href="./img/sprite.svg#icon-burger"></use>
+        </svg>
+            </button>
             
             <ul class="nav">
             <li class="nav__link"><a href="mailto:info@devstudio.com" class="nav__items">
@@ -41,6 +47,46 @@
                 +38 096 111 11 11</a></li>
             </ul>
         </div>
+
+<div class="mobile-menu" data-menu>
+<div class="container mobile-menu__container">
+<button type="button" class="mobile-menu__close-btn" data-menu-close>
+<svg class="mobile-menu__close-icon" width="40" height="40">
+    <use href="./img/sprite.svg#icon-close"></use>
+</svg>
+</button>
+
+    <ul class="menu-burger">
+    <li class="menu-burger__item">
+        <a href="./index.html" class="link menu-burger__link menu-burger__link-current">Студія</a>
+    </li>
+    <li class="menu-burger__item"><a href="./portfolio.html" class="link menu-burger__link">Портфоліо</a></li>
+    <li class="menu-burger__item"><a href="" class="link menu-burger__link">Контакти</a></li>
+    </ul>
+
+    <ul class="menu-burger__contact">
+    <a href="tel:+380961111111" class="link menu-burger__tel">+38 096 111 11 11</a>
+    <a href="mailto:info@devstudio.com" class="link menu-burger__mail">info@devstudio.com</a>
+</ul>
+
+<ul class="burger-social-list">
+    <li class="burger-social-list__item">
+        <a href="" class="burger-social-list__link link">Instagram</a>
+    </li>
+    <li class="burger-social-list__item">
+        <a href="" class="burger-social-list__link link">Twitter</a>
+    </li>
+    <li class="burger-social-list__item">
+        <a href="" class="burger-social-list__link link">Facebook</a>
+    </li>
+    <li class="burger-social-list__item">
+        <a href="" class="burger-social-list__link link">LinkedIn</a>
+    </li>
+</ul>
+
+</div>
+</div>
+
     </header>
 
     <main>
@@ -130,7 +176,13 @@
 <ul class="team-list">
 
     <li class="speaker">
-<img src="./img/photo1.jpg" alt="speaker1" width="270">
+        <picture>
+            <source srcset="../../img/our-team-opt/desktop/desk-1m.jpg 1x, ../../img/our-team-opt/desktop/desk-1m@2x.jpg 2x" media="(min-width: 1200px)">
+            <source srcset="../../img/our-team-opt/tablet/tabl-1m.jpg 1x, ../../img/our-team-opt/tablet/tabl-1m@2x.jpg 2x" media="(min-width: 768px)">
+            <source srcset="../../img/our-team-opt/mobile/mob-1m.jpg 1x, ../../img/our-team-opt/mobile/mob-1m@2x.jpg 2x" media="(min-width: 480px)">
+            <img src="./img/photo1.jpg" alt="speaker1" width="270">
+        </picture>
+
 <div class="speaker-border">
 <h3 class="text-name">Ігор Дем'яненко</h3>
 <p class="text">Product Designer</p>
@@ -168,7 +220,13 @@
     </li>
 
     <li class="speaker">
-    <img src="./img/photo2.jpg" alt="speaker2" width="270">
+        <picture>
+            <source srcset="../../img/our-team-opt/desktop/desk-2m.jpg 1x, ../../img/our-team-opt/desktop/desk-2m@2x.jpg 2x" media="(min-width: 1200px)">
+            <source srcset="../../img/our-team-opt/tablet/tabl-2m.jpg 1x, ../../img/our-team-opt/tablet/tabl-2m@2x.jpg 2x" media="(min-width: 768px)">
+            <source srcset="../../img/our-team-opt/mobile/mob-2m.jpg 1x, ../../img/our-team-opt/mobile/mob-2m@2x.jpg 2x" media="(min-width: 480px)">
+            <img src="./img/photo2.jpg" alt="speaker2" width="270">
+        </picture>
+    
     <div class="speaker-border">
     <h3 class="text-name">Ольга Рєпіна</h3>
     <p class="text">Frontend Developer</p>
@@ -206,7 +264,13 @@
     </li>
 
         <li class="speaker">
-        <img src="./img/photo3.jpg" alt="speaker3" width="270">
+            <picture>
+                <source srcset="../../img/our-team-opt/desktop/desk-3m.jpg 1x, ../../img/our-team-opt/desktop/desk-3m@2x.jpg 2x" media="(min-width: 1200px)">
+                <source srcset="../../img/our-team-opt/tablet/tabl-3m.jpg 1x, ../../img/our-team-opt/tablet/tabl-3m@2x.jpg 2x" media="(min-width: 768px)">
+                <source srcset="../../img/our-team-opt/mobile/mob-3m.jpg 1x, ../../img/our-team-opt/mobile/mob-3m@2x.jpg 2x" media="(min-width: 480px)">
+                <img src="./img/photo3.jpg" alt="speaker3" width="270">
+            </picture>
+        
         <div class="speaker-border">
         <h3 class="text-name">Микола Тарасов</h3>
         <p class="text">Marketing</p>
@@ -244,7 +308,13 @@
         </li>
 
             <li class="speaker">
-            <img src="./img/photo4.jpg" alt="speaker4" width="270">
+                <picture>
+                    <source srcset="../../img/our-team-opt/desktop/desk-4m.jpg 1x, ../../img/our-team-opt/desktop/desk-4m@2x.jpg 2x" media="(min-width: 1200px)">
+                    <source srcset="../../img/our-team-opt/tablet/tabl-4m.jpg 1x, ../../img/our-team-opt/tablet/tabl-4m@2x.jpg 2x" media="(min-width: 768px)">
+                    <source srcset="../../img/our-team-opt/mobile/mob-4m.jpg 1x, ../../img/our-team-opt/mobile/mob-4m@2x.jpg 2x" media="(min-width: 480px)">
+                    <img src="./img/photo4.jpg" alt="speaker4" width="270">
+                </picture>
+            
             <div class="speaker-border">
             <h3 class="text-name">Михайло Єрмаков</h3>
             <p class="text">UI Designer</p>
@@ -347,9 +417,9 @@
 
         <div class="container page-footer">
         <div class="logo-container">
-        <div class="logo-footer">
-            <a href="./index.html" class="logo"><span class="slogan">Web</span><span class="slogan-text">Studio</span></a>
-        </div>
+        <!-- <div class="logo-footer"> -->
+            <a href="./index.html" class="logo-footer link"><span class="slogan">Web</span><span class="slogan-text">Studio</span></a>
+        <!-- </div> -->
             <address class="address">
                 <a href="https://goo.gl/maps/XoqfhAZ9AHPVLFfU8" class="address-text" target="_blank"  rel="noopener noreferrer" >м. Київ, пр-т Лесі Українки, 26</a> 
             <ul class="address-list">
@@ -362,9 +432,12 @@
 
 
     <!-- <div class="footer-item"> -->
-        <div class="footer-community">
-            <div class="community-tem">
-            <h3 class="community-title"><span class="community-logo">приєднуйтесь</span></h3>
+        <!-- <div class="footer-community">   -->
+            <div class="community-item">
+            <h3 class="community-title">
+                <!-- <span class="community-logo">приєднуйтесь</span> -->
+                приєднуйтесь
+            </h3>
             <ul class="footer-list">
                 <li>
                     <a href="" class="social-list-item">
@@ -399,8 +472,9 @@
 
 
 <div class="footer-subscribe">
-    <h3>
-        <span class="subscribe-title">Підпишіться на розсилку</span>  
+    <h3 class="community-title">
+        Підпишіться на розсилку
+        <!-- <span class="subscribe-title">Підпишіться на розсилку</span>   -->
     </h3>
     <div class="subscribe-area">
     <label class="modal-form-subscribe">
@@ -492,7 +566,7 @@
 
 </div>
 </div>
-
+<script src="./js/mobile-menu.js"></script>
 <script src="./js/modal.js"></script>
 
 </body>

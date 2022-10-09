@@ -1,3 +1,10 @@
+.work {
+  @media (max-width: 768px) {
+  
+    display: none;
+  }
+}
+
 .title-about{
     font-weight: 700;
 font-size: 36px;

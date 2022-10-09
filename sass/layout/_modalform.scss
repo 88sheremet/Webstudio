@@ -89,24 +89,46 @@
   
   .modal-form-check-text{
     font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  
+  font-size: 12px;
+  line-height: 14px;
+  // width: 235px;
+  // width: auto;
   letter-spacing: 0.03em;
   
   color: #757575;
   }
 
+  @media (min-width: 1200px) {
+  
+    .modal-form-check-text{
+      // width: auto;
+      font-size: 14px;
+  line-height: 24px;
+    }
+  }
+
   .modal-form-check-link{
+    width: auto;
+  // width: 113px;
     display: block;
     font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 12px;
+  line-height: 14px;
   
   letter-spacing: 0.03em;
   text-decoration-line: underline;
   
   color: #2196F3;
+  }
+
+  
+  @media (min-width: 1200px) {
+  
+  .modal-form-check-link{
+      // width: auto;
+      font-size: 14px;
+  line-height: 24px;
+    }
   }
   
   .modal-form-check-wrapper {
@@ -114,6 +136,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+
   }
   
   .modal-form-own-check {

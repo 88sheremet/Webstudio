@@ -3,13 +3,34 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(1);
-    width: 528px;
-    height: 580px; 
+    // width: 528px;
+    // height: 580px;
+    width: 450px;
+      height: 609px; 
     background-color: var(--white-color);
     border-radius: 4px;
     transition-property: transform;
     transition-duration: 250ms; 
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  // @media (min-width: 768px) {
+  
+  //   .modal{
+  //     width: 528px;
+  //     height: 580px;
+    
+  //   }
+  // }
+
+  
+  @media (min-width: 1200px) {
+  
+    .modal{
+      width: 528px;
+      height: 580px;
+    
+    }
   }
 
   .modal-close-button{
