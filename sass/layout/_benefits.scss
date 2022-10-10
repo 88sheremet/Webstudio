@@ -78,7 +78,7 @@
 
 
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 280px) {
     .benefits{
       padding-top: 30px;
     padding-bottom: 30px;
@@ -112,7 +112,7 @@
 
 
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 280px) {
     .list{
     display: flex;
     flex-wrap: wrap;
@@ -144,7 +144,7 @@
 // }
 // коментар
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 280px) {
     .list__item{
         width: 450px;
        }
@@ -176,7 +176,7 @@ border-radius: 4px;
 margin-bottom: 30px;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 280px) {
     .list__item-box{
         
         width: 100%;
@@ -217,7 +217,7 @@ margin-bottom: 30px;
   }
   
 
-  @media screen and (min-width: 480px) {
+  @media screen and (min-width: 280px) {
     .list__item-title{
         display: flex;
     justify-content: center;

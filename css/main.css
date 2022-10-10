@@ -70,7 +70,7 @@ ul {
   overflow: hidden;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 280px) {
   .section {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -506,7 +506,7 @@ ul {
     min-width: 216px;
   }
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 280px) {
   .benefits {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -523,7 +523,7 @@ ul {
     padding-top: 94px;
   }
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 280px) {
   .list {
     display: flex;
     flex-wrap: wrap;
@@ -543,7 +543,7 @@ ul {
     column-gap: 30px;
   }
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 280px) {
   .list__item {
     width: 450px;
   }
@@ -568,7 +568,7 @@ ul {
   margin-bottom: 30px;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 280px) {
   .list__item-box {
     width: 100%;
   }
@@ -598,7 +598,7 @@ ul {
   margin-bottom: 10px;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 280px) {
   .list__item-title {
     display: flex;
     justify-content: center;
@@ -675,7 +675,7 @@ ul {
   background-color: var(--background-page-color);
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 280px) {
   .title-team {
     font-weight: 700;
     text-align: center;
@@ -702,7 +702,7 @@ ul {
     margin-bottom: 50px;
   }
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 280px) {
   .team-list {
     justify-content: center;
     display: flex;
@@ -790,7 +790,7 @@ ul {
   letter-spacing: 0.03em;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 280px) {
   .clients {
     font-size: 28px;
     line-height: 1.18;
@@ -810,7 +810,7 @@ ul {
   column-gap: 30px;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 280px) {
   .clients-list {
     flex-wrap: wrap;
     gap: 30px;
