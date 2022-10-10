@@ -23,6 +23,7 @@
 
 
 .mobile-menu.is-open{
+  overflow: auto;
   opacity: 1;
     visibility: visible;
     pointer-events: auto;
