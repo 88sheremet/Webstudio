@@ -55,7 +55,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 170px;
+    width: 210px;
     height: 92px;
     background-color: var(--white-color);
     border: 1px solid #AFB1B8;
@@ -63,6 +63,22 @@
   transition-property: fill, border;
   transition-duration: 250ms; 
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  @media (min-width: 768px) {
+  
+    .clients-list-link{
+      width: 226px;
+      
+  }
+  }
+
+  @media (min-width: 1200px) {
+  
+    .clients-list-link{
+      width: 170px;
+      
+  }
   }
   
   .clients-link-icon{
