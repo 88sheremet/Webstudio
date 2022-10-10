@@ -860,7 +860,7 @@ ul {
   background: var(--background-color);
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 280px) {
   .page-footer {
     display: block;
     width: 100%;
@@ -894,7 +894,7 @@ ul {
   font-family: "Raleway";
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 280px) {
   .logo-footer {
     display: flex;
     justify-content: center;
@@ -913,7 +913,7 @@ ul {
   row-gap: 9px;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 280px) {
   .address {
     align-items: center;
     margin-bottom: 60px;
@@ -963,7 +963,7 @@ ul {
   align-items: center;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 280px) {
   .community-item {
     display: flex;
     flex-direction: column;
@@ -976,7 +976,7 @@ ul {
     row-gap: 20px;
   }
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 280px) {
   .footer-subscribe {
     display: flex;
     flex-direction: column;
@@ -1057,7 +1057,7 @@ ul {
   color: var(--white-color);
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 280px) {
   .subscribe-area {
     display: flex;
     flex-wrap: wrap;
@@ -1090,7 +1090,7 @@ ul {
   background-color: var(--background-color);
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 280px) {
   .modal-form-input-subscribe {
     display: block;
     width: 450px;
