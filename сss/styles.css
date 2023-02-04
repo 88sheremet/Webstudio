@@ -1185,5 +1185,32 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 } */
 
 
+.modal-form-input-subscribe {
+  padding-left: 16px;
+  margin-right: 12px;
+  /* width: 358px; */
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: var(--background-color);
+
+  
+}
+
+@media screen and (min-width: 280px) {
+  .modal-form-input-subscribe {
+    display: block;
+    width: 290px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .modal-form-input-subscribe {
+    display: block;
+    width: 358px;
+  }
+}
+
 
 

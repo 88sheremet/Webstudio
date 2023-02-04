@@ -1,9 +1,62 @@
-.filter-list {
-  display: flex;
-  justify-content: center;
-  column-gap: 8px;
-  margin-bottom: 50px;
-  width: 326px;
+
+
+.portfolio-container {
+  // width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media screen and (min-width: 280px) {
+  .portfolio-container{
+    width: 480px;
+
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .portfolio-container{
+    width: 768px;
+    
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .portfolio-container{
+    width: 1200px;
+    
+  }
+}
+
+@media screen and (min-width: 280px) {
+  .filter-list {
+    display: flex;
+    justify-content: flex-start;
+    gap: 8px;
+    margin-bottom: 50px;
+    width: 326px;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .filter-list {
+    display: flex;
+    justify-content: center;
+    column-gap: 8px;
+    margin-bottom: 50px;
+    width: 100%;
+    // margin: 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .subscribe-area {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
 }
 
 .button {
@@ -47,6 +100,8 @@
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
+
+  width: 350px;
 }
 
 .list-works-link {
@@ -85,7 +140,8 @@
 }
 
 .list-works-item {
-  width: 370px;
+  // width: 370px;
+  width: 350px;
 }
 
 .list-works-items {

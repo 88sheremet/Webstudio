@@ -969,7 +969,8 @@ ul {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.address-mail:hover, .address-mail:focus {
+.address-mail:hover,
+.address-mail:focus {
   color: var(--accent-color);
 }
 
@@ -1100,7 +1101,6 @@ ul {
 .modal-form-input-subscribe {
   padding-left: 16px;
   margin-right: 12px;
-  width: 358px;
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -1111,7 +1111,7 @@ ul {
 @media screen and (min-width: 280px) {
   .modal-form-input-subscribe {
     display: block;
-    width: 350px;
+    width: 290px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1440,13 +1440,54 @@ ul {
   pointer-events: none;
 }
 
-.filter-list {
-  display: flex;
-  justify-content: center;
-  column-gap: 8px;
-  margin-bottom: 50px;
+.portfolio-container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
+@media screen and (min-width: 280px) {
+  .portfolio-container {
+    width: 480px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .portfolio-container {
+    width: 768px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .portfolio-container {
+    width: 1200px;
+  }
+}
+@media screen and (min-width: 280px) {
+  .filter-list {
+    display: flex;
+    justify-content: flex-start;
+    gap: 8px;
+    margin-bottom: 50px;
+    width: 326px;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (min-width: 768px) {
+  .filter-list {
+    display: flex;
+    justify-content: center;
+    column-gap: 8px;
+    margin-bottom: 50px;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .subscribe-area {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+}
 .button {
   font-weight: 500;
   font-size: 16px;
@@ -1485,6 +1526,7 @@ ul {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
+  width: 350px;
 }
 
 .list-works-link {
@@ -1522,7 +1564,7 @@ ul {
 }
 
 .list-works-item {
-  width: 370px;
+  width: 350px;
 }
 
 .list-works-items {
@@ -1536,7 +1578,7 @@ ul {
 
 .text-wrapper {
   padding: 20px;
-  border: 1px solid #EEEEEE;
+  border: 1px solid #eeeeee;
   border-top: none;
   background-color: var(--white-color);
 }
