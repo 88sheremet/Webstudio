@@ -4,10 +4,6 @@
   background: var(--background-color);
 }
 
-// .page-footer{
-//   display: flex;
-
-// }
 
 
 @media screen and (min-width: 280px) {
@@ -337,7 +333,7 @@ color: var(--white-color);
   @media screen and (min-width: 280px) {
     .modal-form-input-subscribe{
       display: block;
-      width: 450px;
+    width: 290px;
     }
   }
 
@@ -362,16 +358,6 @@ color: var(--white-color);
     color: rgba(255, 255, 255, 0.6);
   }
 
-  // .modal-form-subscribe{
-  //   width: 450px;
-  // }
-
-  // @media screen and (min-width: 1200px) {
-  //   .modal-form-subscribe{
-  //     display: block;
-  //     width: 200px;
-  //   }
-  // }
   
   .modal-form-subscribe-btn{
     display: flex;
