@@ -174,10 +174,6 @@ letter-spacing: 0.02em;
   align-items: center;
 } */
 
-
-
-
-
 /* .nav-items{
   
     font-weight: 500;
@@ -209,7 +205,6 @@ display: flex;
 align-items: center;
 } */
 
-
 /* .contact-list:hover, .contact-list:focus{
   fill: var(--accent-color);  
   }
@@ -231,16 +226,16 @@ align-items: center;
 
 } */
 
-  /* Section 1 */
+/* Section 1 */
 
-  /* не потрібно */
+/* не потрібно */
 
-  /* .section{
+/* .section{
     padding-top: 94px;
     padding-bottom: 94px;
   } */
 
-  /* .visually-hidden {
+/* .visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -253,9 +248,9 @@ align-items: center;
     overflow: hidden;
   } */
 
-  /* не потрібно */
+/* не потрібно */
 
-  /* .hero{
+/* .hero{
     background: #C4C4C4;
     padding-top: 200px;
     padding-bottom: 200px;
@@ -351,9 +346,7 @@ letter-spacing: 0.03em;
     color: var(--second-text-color);
 } */
 
-
 /* Section3 */
-
 
 /* .title-about{
     font-weight: 700;
@@ -375,8 +368,6 @@ margin-bottom: 50px;
   position: relative;
   justify-content: center;
 } */
-
-
 
 /* .work-overlay{
   
@@ -402,7 +393,6 @@ padding-top: 27px;
 padding-bottom: 27px;
 margin: 0 auto;
 } */
-
 
 /* Section4 */
 
@@ -496,10 +486,6 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   
 } */
 
-
-
-
-
 /* SECTION CLIENTS */
 
 /* .clients{
@@ -519,7 +505,6 @@ margin-bottom: 50px;
   
 } */
 
-
 /* не потрібно */
 
 /* .clients-item{
@@ -530,7 +515,7 @@ margin-bottom: 50px;
   background-color: #ffffff;
   border: 1px solid #AFB1B8;
 border-radius: 4px; */
-/* } */ 
+/* } */
 
 /* .clients-item{
   display: flex;
@@ -582,8 +567,6 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   
 } */
 
-
-
 /* footer */
 
 /* .section-footer{
@@ -634,7 +617,7 @@ transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     } */
 
-    /* .address-mail:hover, .address-mail:focus{
+/* .address-mail:hover, .address-mail:focus{
         color: var(--accent-color); 
       }
 
@@ -783,13 +766,9 @@ color: var(--white-color);
   display: flex;
 } */
 
+/* PORTFOLIO PAGES */
 
-
-
-
-    /* PORTFOLIO PAGES */
-
-    /* Список робіт */
+/* Список робіт */
 
 /* .filter-list{
   display: flex;
@@ -869,7 +848,6 @@ border-radius: 4px;
   letter-spacing: 0.03em;
 } */
 
-
 /* .list-works-link:hover,
 .list-works-link:focus
 {
@@ -883,12 +861,11 @@ border-radius: 4px;
   transform: translateY(0);
 } */
 
-.list-works-item{
- /* через calc */
-width: 370px; 
-/* width: calc((100% - 30px) / 3); */
+.list-works-item {
+  /* через calc */
+  width: 370px;
+  /* width: calc((100% - 30px) / 3); */
 }
-
 
 /* .list-works-items{
     font-weight: 700;
@@ -915,11 +892,9 @@ line-height: 1.88;
         color: var(--second-text-color);
     } */
 
+/* -----BACKDROP---- */
 
-
-    /* -----BACKDROP---- */
-
-    /* .backdrop{
+/* .backdrop{
       position: fixed;
       
       top: 0;
@@ -931,16 +906,15 @@ line-height: 1.88;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visability 250ms cubic-bezier(0.4, 0, 0.2, 1);
     } */
 
-    /* .backdrop.is-hidden{
+/* .backdrop.is-hidden{
       opacity: 0;
       visibility: hidden;
       pointer-events: none;
     } */
 
+/* ------MODAL----- */
 
-    /* ------MODAL----- */
-
-    /* .modal{
+/* .modal{
       
       position: absolute;
       top: 50%;
@@ -1021,7 +995,6 @@ transition-property: border-color;
   border-color: var(--accent-color);
   outline: none;
 } */
-
 
 /* не потрібно */
 
@@ -1184,7 +1157,6 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   fill: var(--accent-color);
 } */
 
-
 .modal-form-input-subscribe {
   padding-left: 16px;
   margin-right: 12px;
@@ -1194,8 +1166,6 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   background-color: var(--background-color);
-
-  
 }
 
 @media screen and (min-width: 280px) {
@@ -1211,6 +1181,3 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     width: 358px;
   }
 }
-
-
-

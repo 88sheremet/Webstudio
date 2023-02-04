@@ -107,7 +107,7 @@ ul {
 .page-header {
   padding-top: 16px;
   padding-bottom: 16px;
-  border-bottom: 1px solid #ECECEC;
+  border-bottom: 1px solid #ececec;
 }
 
 @media screen and (min-width: 768px) {
@@ -195,7 +195,8 @@ ul {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.menu-item:hover, .menu-item .list-item:focus {
+.menu-item:hover,
+.menu-item .list-item:focus {
   color: var(--accent-color);
 }
 
@@ -216,7 +217,7 @@ ul {
   position: absolute;
   display: block;
   content: "";
-  background-color: #2196F3;
+  background-color: #2196f3;
   height: 4px;
   /* top: 0; */
   left: 0;
@@ -428,7 +429,7 @@ ul {
 
 @media screen and (min-width: 280px) {
   .hero {
-    background: #C4C4C4;
+    background: #c4c4c4;
     padding-top: 118px;
     padding-bottom: 118px;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/mobile/hero1x.jpg");
@@ -506,7 +507,7 @@ ul {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero__button:active {
-  background-color: #188CE8;
+  background-color: #188ce8;
 }
 
 @media screen and (min-width: 1200px) {
@@ -571,7 +572,7 @@ ul {
   justify-content: center;
   width: 270px;
   height: 120px;
-  background: #F5F4FA;
+  background: #f5f4fa;
   border-radius: 4px;
   margin-bottom: 30px;
 }
@@ -836,7 +837,7 @@ ul {
   width: 210px;
   height: 92px;
   background-color: var(--white-color);
-  border: 1px solid #AFB1B8;
+  border: 1px solid #afb1b8;
   border-radius: 4px;
   transition-property: fill, border;
   transition-duration: 250ms;
@@ -1216,7 +1217,7 @@ ul {
 
 .modal-close-button:hover .modal-close-button-icon,
 .modal-close-button:focus .modal-close-button-icon {
-  fill: #2196F3;
+  fill: #2196f3;
 }
 
 .backdrop.is-hidden .modal {
@@ -1339,7 +1340,7 @@ ul {
   line-height: 14px;
   letter-spacing: 0.03em;
   text-decoration-line: underline;
-  color: #2196F3;
+  color: #2196f3;
 }
 
 @media (min-width: 1200px) {
@@ -1406,7 +1407,7 @@ ul {
   align-self: center;
   letter-spacing: 0.06em;
   background-color: var(--accent-color);
-  color: #FFFFFF;
+  color: #ffffff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   transition-property: background-color;
@@ -1415,7 +1416,7 @@ ul {
 }
 
 .modal-form-btn:hover {
-  background-color: #188CE8;
+  background-color: #188ce8;
 }
 
 .modal-close-button-icon:active,
@@ -1526,7 +1527,6 @@ ul {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-  width: 350px;
 }
 
 .list-works-link {
@@ -1564,7 +1564,7 @@ ul {
 }
 
 .list-works-item {
-  width: 350px;
+  width: 370px;
 }
 
 .list-works-items {

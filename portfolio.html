@@ -11,7 +11,6 @@
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
     rel="stylesheet" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css" />
-  <!-- <link rel="stylesheet" href="./сss/styles.css" /> -->
   <link rel="stylesheet" href="./css/main.min.css">
 </head>
 
@@ -32,6 +31,12 @@
         </ul>
       </nav>
 
+      <button type="button" class="mobile-menu-btn" data-menu-open>
+        <svg class="mobile-menu-btn__icon" width="40" height="40">
+            <use href="./img/sprite.svg#icon-burger"></use>
+        </svg>
+    </button>
+
       <ul class="nav">
         <li class="nav__link"><a href="mailto:info@devstudio.com" class="nav__items">
             <svg class="contact-list" width="16" height="12">
@@ -45,6 +50,48 @@
             +38 096 111 11 11</a></li>
       </ul>
     </div>
+    <div class="mobile-menu" data-menu>
+      <div class="container mobile-menu__container">
+          <button type="button" class="mobile-menu__close-btn" data-menu-close>
+              <svg class="mobile-menu__close-icon" width="40" height="40">
+                  <use href="./img/sprite.svg#icon-close"></use>
+              </svg>
+          </button>
+
+          <ul class="menu-burger">
+              <li class="menu-burger__item">
+                  <a href="./index.html" class="link menu-burger__link menu-burger__link-current">Студія</a>
+              </li>
+              <li class="menu-burger__item"><a href="./portfolio.html"
+                      class="link menu-burger__link">Портфоліо</a></li>
+              <li class="menu-burger__item"><a href="" class="link menu-burger__link">Контакти</a></li>
+          </ul>
+
+          <ul class="menu-burger__contact">
+              <a href="tel:+380961111111" class="link menu-burger__tel">+38 096 111 11 11</a>
+              <a href="mailto:info@devstudio.com" class="link menu-burger__mail">info@devstudio.com</a>
+          </ul>
+
+          <ul class="burger-social-list">
+              <li class="burger-social-list__item">
+                  <a href="" class="burger-social-list__link link">Instagram&nbsp;&nbsp;&nbsp;&nbsp;<span
+                          class="burger-social-list__line">|</span></a>
+              </li>
+              <li class="burger-social-list__item">
+                  <a href="" class="burger-social-list__link link">Twitter&nbsp;&nbsp;&nbsp;&nbsp;<span
+                          class="burger-social-list__line">|</span></a>
+              </li>
+              <li class="burger-social-list__item">
+                  <a href="" class="burger-social-list__link link">Facebook&nbsp;&nbsp;&nbsp;&nbsp;<span
+                          class="burger-social-list__line">|</span></a>
+              </li>
+              <li class="burger-social-list__item">
+                  <a href="" class="burger-social-list__link link">LinkedIn</a>
+              </li>
+          </ul>
+
+      </div>
+  </div>
   </header>
 
   <main class="section">
@@ -334,6 +381,8 @@
     </div>
     </div>
 </footer>
+<script src="./js/mobile-menu.js"></script>
+<script src="./js/modal.js"></script>
 </body>
 
 </html>
